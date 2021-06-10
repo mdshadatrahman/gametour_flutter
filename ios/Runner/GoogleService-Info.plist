@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>386285367673-3qgif12c6n2aug4f1q7ejini90nkhmvg.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.386285367673-3qgif12c6n2aug4f1q7ejini90nkhmvg</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>386285367673-05ha7atbiiu8lqirh53niacd9t171ms3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBOr2axwxUdXLl8rQo3ZlDVUS5bSuhI3Bw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>386285367673</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.gametour</string>
+	<key>PROJECT_ID</key>
+	<string>gametour-30c93</string>
+	<key>STORAGE_BUCKET</key>
+	<string>gametour-30c93.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:386285367673:ios:99306b9f3d72113c80bfa8</string>
+	<key>DATABASE_URL</key>
+	<string>https://gametour-30c93.firebaseio.com</string>
+</dict>
+</plist>
