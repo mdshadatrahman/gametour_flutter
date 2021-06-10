@@ -1,0 +1,114 @@
+{
+  "project_info": {
+    "project_number": "386285367673",
+    "firebase_url": "https://gametour-30c93.firebaseio.com",
+    "project_id": "gametour-30c93",
+    "storage_bucket": "gametour-30c93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386285367673:android:fec4f5abc85b747e80bfa8",
+        "android_client_info": {
+          "package_name": "com.example.GameTour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386285367673-rflc4sqaotinjjdfjau6l3lljr0rjchu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.GameTour",
+            "certificate_hash": "f0f6fb74cda2c1b2e7369e12237e064138a6a221"
+          }
+        },
+        {
+          "client_id": "386285367673-tidqahc3c5kiafgj3v93c16062v1fa5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRhVuZcSzMnavghr-xAn5SYHO_lEF1Qd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386285367673-tidqahc3c5kiafgj3v93c16062v1fa5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386285367673:android:4b250fdae3008fb380bfa8",
+        "android_client_info": {
+          "package_name": "com.example.GameTourMySQL"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386285367673-0v2im2voa3e8nlflsine3ad5j412j3n1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.GameTourMySQL",
+            "certificate_hash": "f0f6fb74cda2c1b2e7369e12237e064138a6a221"
+          }
+        },
+        {
+          "client_id": "386285367673-tidqahc3c5kiafgj3v93c16062v1fa5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRhVuZcSzMnavghr-xAn5SYHO_lEF1Qd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386285367673-tidqahc3c5kiafgj3v93c16062v1fa5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386285367673:android:ac49cfe5ccfa524180bfa8",
+        "android_client_info": {
+          "package_name": "com.example.gametour"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386285367673-tidqahc3c5kiafgj3v93c16062v1fa5c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRhVuZcSzMnavghr-xAn5SYHO_lEF1Qd0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386285367673-tidqahc3c5kiafgj3v93c16062v1fa5c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
