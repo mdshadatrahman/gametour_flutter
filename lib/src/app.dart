@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:gametour/src/screens/login.dart';
+import 'package:gametour/src/screens/signInMethods.dart';
 
 class App extends StatelessWidget {
   @override
@@ -10,7 +11,7 @@ class App extends StatelessWidget {
         accentColor: Colors.orange,
         primaryColor: Colors.blue,
       ),
-      home: LoginScreen(),
+      home: SignInMethods(),
     );
   }
 }

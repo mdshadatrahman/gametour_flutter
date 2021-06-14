@@ -57,7 +57,7 @@ class SignInMethods extends StatelessWidget {
                   dynamic result = await _auth.signInAnon();
                   if(result == null){
                     Fluttertoast.showToast(
-                        msg: 'error',
+                        msg: 'Error',
                         toastLength: Toast.LENGTH_SHORT,
                         gravity: ToastGravity.BOTTOM,
                         timeInSecForIosWeb: 1,
@@ -72,7 +72,8 @@ class SignInMethods extends StatelessWidget {
                       context,
                       MaterialPageRoute(
                           builder: (BuildContext context) => HomeScreen()
-                      ));            
+                      )
+                    );            
                   }                
                 },
               ),
