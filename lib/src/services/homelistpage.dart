@@ -1,7 +1,7 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:gametour/src/services/homelistdetails.dart';
+import 'package:gametour/src/services/matchdetails.dart';
 
 class ListPage extends StatefulWidget {
 
@@ -15,9 +15,6 @@ class _ListPageState extends State<ListPage> {
     QuerySnapshot qn = await firestore.collection('matches').get();
     return qn.docs;
     
-  }
-  navigateToDetail(DocumentSnapshot matches){
-    Navigator.push(context, MaterialPageRoute(builder: (context) => DetailPage(matches: matches,)));
   }
   @override
   Widget build(BuildContext context) {
@@ -45,7 +42,9 @@ class _ListPageState extends State<ListPage> {
                         fontSize: 24,                        
                         ),
                       ),
-                      onTap: () => navigateToDetail(snapshot.data[index]),
+                      onTap: (){
+                        Navigator.push(context, MaterialPageRoute(builder: (context) => MatchDetails(snapshot.data[index].data()['title'])));
+                      },
                   ),
                 );
               },
