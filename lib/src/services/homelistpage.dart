@@ -33,15 +33,21 @@ class _ListPageState extends State<ListPage> {
                 return Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: ListTile(
-                    tileColor: Colors.amber[800],
+                    tileColor: Colors.green[400],
+                    leading: CircleAvatar(
+                      radius: 20,
+                      backgroundImage: AssetImage('assets/fflogo.jpg'),
+                    ),
                     title: Text(
-                      snapshot.data[index].data()['title'],
+                      snapshot.data[index].data()['title'].toString(),
                       style: TextStyle(
                         color: Colors.grey[800],
                         fontWeight: FontWeight.bold,
-                        fontSize: 24,                        
+                        fontSize: 24,
                         ),
                       ),
+                      subtitle: Text(snapshot.data[index].data()['time']),
+                      isThreeLine: true,
                       onTap: (){
                         Navigator.push(context, MaterialPageRoute(builder: (context) => MatchDetails(snapshot.data[index].data()['title'])));
                       },
